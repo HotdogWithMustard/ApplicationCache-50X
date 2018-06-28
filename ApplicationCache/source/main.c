@@ -6,13 +6,18 @@ char ApplicationCache[] = "/user/system/webkit/webbrowser/appcache/ApplicationCa
 int ApplicationCacheLength = 1701888;
 int Configuration = 1337;
 
-char URL[5][128] =
+char URL[10][128] =
 {
 	"http://files.kkhost.pl/files/gen/ulO5M_fEM0/applicationcache.db",
 	"http://files.kkhost.pl/files/gen/57ihwPGf3_/applicationcache.db",
 	"http://files.kkhost.pl/files/gen/V9HSVhHZtm/applicationcache.db",
 	"http://files.kkhost.pl/files/gen/KrPhkgPpeJ/applicationcache.db",
-	"http://files.kkhost.pl/files/gen/5UvYRqYZsE/applicationcache.db"
+	"http://files.kkhost.pl/files/gen/5UvYRqYZsE/applicationcache.db",
+	"http://share.dmaster.ru/files/gen/kXvjrtWliI/8b1faabe05e697fee89c280406f426dfdb",
+	"http://share.dmaster.ru/files/gen/AVo5fCACuK/482d7b1e2fce188f71b1681a71ad5cfedb",
+	"http://share.dmaster.ru/files/gen/1SkAUGs3sr/192ee14ecec7ae160b06b2b778185ed1db",
+	"http://share.dmaster.ru/files/gen/zDrHlA4vmB/9fc9c7487e7c8b52f8c1278589bc0b05db",
+	"http://share.dmaster.ru/files/gen/D0gDKnNzCo/0bbe2e4120d7ebd167d5fb31fe9c84acdb"
 };
 
 int (*sceNetPoolCreate)(const char *name, int size, int flags);
