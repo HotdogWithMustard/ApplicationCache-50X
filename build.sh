@@ -5,7 +5,7 @@ pushd tool
 make
 popd
 pushd $BUILD_NAME
-#xxd -i ApplicationCache.db > ./include/cache.h
+xxd -i ApplicationCache.db > ./include/cache.h
 make
 popd
 mkdir -p bin
