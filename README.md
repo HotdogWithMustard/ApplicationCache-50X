@@ -3,7 +3,7 @@
 
 Installs an ApplicationCache.db that contains a modified version of [Al-Azif's exploit host](https://github.com/Al-Azif/ps4-exploit-host) to your PS4, eliminating the need for a PC, smart device (Android/iPhone/Tablet/etc), or the ESP8266.  It also includes an option to make the browser never remember the last open page. (accessible via HTML payload)
 
-Click here to run the HTML payload.
+Click [here](https://rawcdn.githack.com/HotdogWithMustard/ApplicationCache-50X/master/bin/Index.html) to run the HTML payload.
 
 ## COMPILING
 
